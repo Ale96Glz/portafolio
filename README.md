@@ -81,7 +81,12 @@ git remote add origin https://github.com/Ale96Glz/NOMBRE-DEL-REPO.git
 git push -u origin main
 ```
 
-2. En el repositorio: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Activa Pages **antes** de que el workflow pueda publicar. En el repositorio:
+
+   **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+   Si el job `deploy` falla con `404 / Failed to create deployment`, Pages aún no está habilitado. Actívalo y vuelve a lanzar el workflow en **Actions**.
+
 3. El workflow corre en cada push a `main`. La URL queda:
 
 `https://Ale96Glz.github.io/NOMBRE-DEL-REPO/`
