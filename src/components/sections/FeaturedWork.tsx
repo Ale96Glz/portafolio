@@ -77,7 +77,7 @@ function CaseCard({
         <p className="mt-5 line-clamp-4 min-h-[7em] flex-1 text-justify text-[15px] leading-7 text-ink-soft">
           {item.impact}
         </p>
-        <div className="mt-6 flex min-h-[58px] flex-wrap content-start gap-2">
+        <div className="mt-6 flex min-h-14.5 flex-wrap content-start gap-2">
           {item.tags.slice(0, 4).map((t) => (
             <span
               key={t}
@@ -166,7 +166,7 @@ export default function FeaturedWork() {
 
             <div
               ref={scroller}
-              className="flex items-stretch snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+              className="flex items-stretch snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [-ms-overflow-style:none] scrollbar-none [&::-webkit-scrollbar]:hidden"
               aria-roledescription="carrusel"
               aria-label="Proyectos destacados"
             >

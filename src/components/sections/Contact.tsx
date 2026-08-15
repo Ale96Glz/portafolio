@@ -10,6 +10,7 @@ export default function Contact() {
   const rows = [
     { label: "Correo", value: contact.email, href: `mailto:${contact.email}` },
     { label: "Teléfono", value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, "")}` },
+    { label: "WhatsApp", value: contact.phone, href: contact.whatsappUrl },
     { label: "Ubicación", value: contact.location },
     { label: "LinkedIn", value: contact.linkedinHandle, href: contact.linkedinUrl },
     { label: "GitHub", value: contact.github, href: contact.githubUrl },
@@ -27,6 +28,9 @@ export default function Contact() {
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button href={`mailto:${contact.email}`}>Enviar correo</Button>
+                <Button href={contact.whatsappUrl} variant="secondary" external>
+                  WhatsApp
+                </Button>
                 <Button href={profile.cvUrl} variant="secondary">
                   Descargar CV
                 </Button>

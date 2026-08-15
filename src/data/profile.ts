@@ -15,6 +15,7 @@ export const profile = {
   contact: {
     email: "ale96glz@gmail.com",
     phone: "+52 55 2778 7662",
+    whatsappUrl: "https://wa.me/525527787662",
     location: "Ciudad de México, México",
     linkedinHandle: "/in/alejandro-gonzalez-osorio-635671199",
     linkedinUrl: "https://www.linkedin.com/in/alejandro-gonz%C3%A1lez-osorio-635671199/",
