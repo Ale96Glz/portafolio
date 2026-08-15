@@ -10,7 +10,6 @@ export default function Contact() {
   const rows = [
     { label: "Correo", value: contact.email, href: `mailto:${contact.email}` },
     { label: "Teléfono", value: contact.phone, href: `tel:${contact.phone.replace(/\s/g, "")}` },
-    { label: "WhatsApp", value: contact.phone, href: contact.whatsappUrl },
     { label: "Ubicación", value: contact.location },
     { label: "LinkedIn", value: contact.linkedinHandle, href: contact.linkedinUrl },
     { label: "GitHub", value: contact.github, href: contact.githubUrl },
