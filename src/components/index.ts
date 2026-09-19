@@ -4,7 +4,10 @@ export { default as Nav } from "./layout/Nav";
 export { default as SectionHeader } from "./layout/SectionHeader";
 
 export { default as Button } from "./ui/Button";
+export { default as Chip } from "./ui/Chip";
+export { default as Plate } from "./ui/Plate";
 export { default as Reveal } from "./ui/Reveal";
+export { default as Starfield } from "./ui/Starfield";
 export { default as StatusBadge } from "./ui/StatusBadge";
 
 export { default as Contact } from "./sections/Contact";

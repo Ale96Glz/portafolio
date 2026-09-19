@@ -6,7 +6,7 @@ export const profile = {
     "Ingeniero en Ciencias Informáticas con 7+ años construyendo y verificando software en entornos regulados. He trabajado como desarrollador full-stack, backend, jefe de verificación y asesor de seguridad en voto electrónico, fiscalía, aduanas y seguros.\n\nHe digitalizado procesos manuales, automatizado pruebas de API y liderado auditorías de calidad y rendimiento. Busco un equipo en CDMX o remoto donde pueda seguir entregando sistemas críticos: desarrollar, verificar y acompañar el producto hasta producción.",
   availability: "Disponible · CDMX / Remoto · Español e inglés",
   cvUrl: `${import.meta.env.BASE_URL}cv/Alejandro_Gonzalez_Osorio_CV_ES.pdf`,
-  focus: ["React", "Angular", "TypeScript", "Tailwind CSS", "Java", "Spring Boot"],
+  focus: ["React", "Angular", "TypeScript", "Tailwind CSS", "Java", "Spring Boot", "Kafka"],
   stats: [
     { num: "7+", label: "Años en producción" },
     { num: "5", label: "Sistemas de gobierno" },

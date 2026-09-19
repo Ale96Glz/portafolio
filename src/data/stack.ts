@@ -22,10 +22,10 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Herramientas",
-    items: ["Git", "Gitflow", "GitLab", "GitHub", "Maven", "Docker", "Apache"],
+    items: ["Git", "Gitflow", "GitLab", "GitHub", "Maven", "Docker", "Apache", "Kafka"],
   },
   {
     label: "Metodologías",
-    items: ["Scrum", "Kanban", "DevSecOps", "Code Review", "CI/CD"],
+    items: ["Scrum", "Kanban", "DevSecOps", "Arquitectura hexagonal", "Code Review", "CI/CD"],
   },
 ];

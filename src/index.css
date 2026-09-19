@@ -26,6 +26,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
+  overflow-x: hidden;
 }
 
 body {
@@ -88,6 +89,100 @@ body {
   animation-delay: 350ms;
 }
 
+@keyframes signal-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.live-dot {
+  animation: signal-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbit-counter {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.orbit-spin {
+  pointer-events: none;
+  z-index: 10;
+  animation: orbit-spin var(--period, 30s) linear infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+.orbit-spin[data-kind="repo"] {
+  z-index: 8;
+}
+
+.orbit-spin[data-active="true"] {
+  z-index: 20;
+}
+
+.orbit-spin:hover,
+.orbit-spin:focus-within {
+  z-index: 40;
+}
+
+.planet-hit {
+  pointer-events: auto;
+}
+
+.planet-label {
+  pointer-events: none;
+}
+
+.orbit-counter {
+  animation: orbit-counter var(--period, 30s) linear infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+@keyframes orbit-breathe {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.orbit-active-ring {
+  animation: orbit-breathe 3.2s ease-in-out infinite;
+}
+
+@keyframes core-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 22px rgba(196, 180, 154, 0.16);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(196, 180, 154, 0.34);
+  }
+}
+
+.planet-core {
+  animation: core-glow 4.8s ease-in-out infinite;
+}
+
+.system-stage:hover .orbit-spin,
+.system-stage:hover .orbit-counter,
+.system-stage:focus-within .orbit-spin,
+.system-stage:focus-within .orbit-counter {
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -95,6 +190,25 @@ body {
 
   .animate-fade-up,
   .animate-fade-in {
+    animation: none;
+  }
+
+  .orbit-spin,
+  .orbit-counter {
+    animation: none;
+  }
+
+  .orbit-spin {
+    transform: rotate(var(--start, 0deg));
+  }
+
+  .orbit-counter {
+    transform: rotate(calc(var(--start, 0deg) * -1));
+  }
+
+  .live-dot,
+  .orbit-active-ring,
+  .planet-core {
     animation: none;
   }
 }
