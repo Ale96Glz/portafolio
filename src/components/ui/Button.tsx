@@ -2,9 +2,9 @@ import type { ReactNode } from "react";
 
 const variants = {
   primary:
-    "bg-ink text-paper hover:bg-signal hover:text-paper",
+    "bg-ink text-paper hover:bg-signal hover:text-paper hover:shadow-[0_0_24px_rgba(196,180,154,0.25)]",
   secondary:
-    "border border-line bg-transparent text-ink hover:border-signal/50 hover:text-signal",
+    "border border-line/80 bg-surface/30 text-ink hover:border-signal/50 hover:text-signal",
 };
 
 export default function Button({

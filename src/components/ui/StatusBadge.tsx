@@ -14,9 +14,9 @@ export default function StatusBadge({
 }) {
   return (
     <span
-      className={`inline-flex items-center gap-1.5 text-[12px] ${styles[status]}`}
+      className={`inline-flex items-center gap-1.5 font-mono text-[11px] tracking-[0.12em] uppercase ${styles[status]}`}
     >
-      <span className={`h-1.5 w-1.5 rounded-full bg-current`} />
+      <span className="h-1.5 w-1.5 rounded-full bg-current" />
       {label}
     </span>
   );
