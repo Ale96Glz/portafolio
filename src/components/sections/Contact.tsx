@@ -19,7 +19,7 @@ export default function Contact() {
   return (
     <section id="contacto" className="border-t border-line/50">
       <Container className="py-12 sm:py-16">
-        <SectionHeader index="05" title="Contacto" sub="CDMX · Remoto" />
+        <SectionHeader index="05" title="Contacto" sub="Remoto · tiempo parcial" />
         <Reveal>
           <div className="grid items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-12">
             <div>
@@ -30,11 +30,11 @@ export default function Contact() {
                 </p>
               </div>
               <p className="mt-4 font-display text-[30px] font-medium leading-tight tracking-tight text-ink sm:text-[38px]">
-                Disponible para nuevas oportunidades.
+                Disponible para proyectos remotos de tiempo parcial.
               </p>
               <p className="mt-4 max-w-md text-[15px] leading-7 text-ink-soft">
-                Si hay un sistema crítico que construir, verificar o llevar a
-                producción, escríbeme.
+                Si hay un sistema que construir, verificar o llevar a
+                producción —por proyecto o medio tiempo— escríbeme.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Button href={`mailto:${contact.email}`}>Enviar correo</Button>

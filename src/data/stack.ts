@@ -14,7 +14,7 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Testing y automatización",
-    items: ["Karate", "Gatling", "Swagger/OpenAPI", "Postman"],
+    items: ["Karate", "Gatling", "Swagger/OpenAPI", "Postman", "Pruebas de UI"],
   },
   {
     label: "Bases de datos",

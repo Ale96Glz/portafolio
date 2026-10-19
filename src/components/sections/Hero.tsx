@@ -17,7 +17,7 @@ export default function Hero() {
             </p>
             <span className="text-line">/</span>
             <p className="font-mono text-[11px] tracking-[0.14em] text-ink-faint uppercase">
-              CDMX · Remoto · ES / EN
+              Remoto · Tiempo parcial · ES / EN
             </p>
           </div>
           <p className="font-mono text-[11px] tracking-[0.16em] text-ink-faint uppercase">
