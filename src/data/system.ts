@@ -21,7 +21,7 @@ export const systemBodies: SystemBody[] = [
   {
     id: "sivei-ii",
     kind: "system",
-    title: "Auditoría técnica — SIVEI",
+    title: "Aseguramiento de calidad — SIVEI",
     catalog: "SIVEI II",
     year: "2026",
     size: 15,
@@ -33,7 +33,7 @@ export const systemBodies: SystemBody[] = [
   {
     id: "sivei-i",
     kind: "system",
-    title: "SIVEI — voto electrónico por internet",
+    title: "Automatización de QA — SIVEI",
     catalog: "SIVEI I",
     year: "2025",
     size: 17,
