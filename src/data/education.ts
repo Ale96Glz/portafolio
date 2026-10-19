@@ -10,9 +10,9 @@ export interface EducationItem {
 
 export const education: EducationItem[] = [
   {
-    degree: "Posgrado en Ciencias y Tecnologías de la Información",
+    degree: "Maestría en Ciencias y Tecnologías de la Información",
     org: "Universidad Autónoma Metropolitana, Unidad Iztapalapa",
-    dateRange: "nov 2024 – nov 2026",
+    dateRange: "oct 2024 — presente",
     status: "pending",
     statusLabel: "En curso",
   },
@@ -22,5 +22,12 @@ export const education: EducationItem[] = [
     dateRange: "2015 – 2020",
     status: "pass",
     statusLabel: "Completado",
+  },
+  {
+    degree: "EF SET English Certificate 67/100 (C1 Proficient)",
+    org: "EF SET",
+    dateRange: "Certificación",
+    status: "pass",
+    statusLabel: "C1",
   },
 ];
