@@ -33,8 +33,8 @@ export default function Contact() {
                 Disponible para proyectos remotos de tiempo parcial.
               </p>
               <p className="mt-4 max-w-md text-[15px] leading-7 text-ink-soft">
-                Si hay un sistema que construir, verificar o llevar a
-                producción —por proyecto o medio tiempo— escríbeme.
+                Si hay un sistema que construir o una auditoría de calidad
+                que sostener con pruebas automatizadas, escríbeme.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Button href={`mailto:${contact.email}`}>Enviar correo</Button>

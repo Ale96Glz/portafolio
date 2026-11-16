@@ -9,7 +9,7 @@ export default function Education() {
   return (
     <section id="educacion" className="border-t border-line/50">
       <Container className="py-12 sm:py-16">
-        <SectionHeader index="04" title="Formación académica" sub="2015 — presente" />
+        <SectionHeader index="04" title="Formación académica" sub="2015 a presente" />
         <Reveal>
           <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
             {education.map((item) => (

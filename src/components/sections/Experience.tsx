@@ -15,8 +15,9 @@ export default function Experience() {
         />
         <Reveal>
           <p className="mb-6 max-w-2xl text-[15px] leading-7 text-ink-soft">
-            La misma trayectoria, en línea de tiempo. Un clic abre el planeta
-            en el catálogo.
+            Ocho años de desarrollo full-stack en entornos regulados. Desde
+            2025, pruebas automatizadas y auditoría de calidad. Un clic abre
+            el planeta en el catálogo.
           </p>
           <div>
             {experience.map((item, index) => (

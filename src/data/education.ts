@@ -12,14 +12,14 @@ export const education: EducationItem[] = [
   {
     degree: "Maestría en Ciencias y Tecnologías de la Información",
     org: "Universidad Autónoma Metropolitana, Unidad Iztapalapa",
-    dateRange: "oct 2024 — presente",
+    dateRange: "oct 2024 a presente",
     status: "pending",
     statusLabel: "En curso",
   },
   {
     degree: "Ingeniería en Ciencias Informáticas",
     org: "Universidad de las Ciencias Informáticas (UCI), La Habana, Cuba",
-    dateRange: "2015 – 2020",
+    dateRange: "2015 a 2020",
     status: "pass",
     statusLabel: "Completado",
   },

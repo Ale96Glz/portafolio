@@ -10,11 +10,11 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Frameworks y librerías",
-    items: ["React", "Angular", "Tailwind CSS", "Spring Boot", "Django", "Symfony", "AngularJS", "jQuery", "extJS", "Hibernate"],
+    items: ["React", "Angular", "Tailwind CSS", "Spring Boot", "NestJS", "Django", "Symfony", "AngularJS", "jQuery", "extJS", "Hibernate", "Prisma"],
   },
   {
-    label: "Testing y automatización",
-    items: ["Karate", "Gatling", "Swagger/OpenAPI", "Postman", "Pruebas de UI"],
+    label: "Pruebas y automatización",
+    items: ["Karate", "REST Assured", "Gatling", "JUnit 5", "Allure", "Hamcrest", "Swagger/OpenAPI", "Postman", "Pruebas de contrato", "Pruebas de carga", "Pruebas de UI"],
   },
   {
     label: "Bases de datos",
@@ -22,10 +22,10 @@ export const stack: StackGroup[] = [
   },
   {
     label: "Herramientas",
-    items: ["Git", "Gitflow", "GitLab", "GitHub", "Maven", "Docker", "Apache", "Kafka"],
+    items: ["Git", "Gitflow", "GitLab", "GitHub", "Maven", "Docker", "Kubernetes", "Apache", "Kafka", "Redis"],
   },
   {
     label: "Metodologías",
-    items: ["Scrum", "Kanban", "DevSecOps", "Arquitectura hexagonal", "Code Review", "CI/CD"],
+    items: ["Scrum", "Kanban", "DevSecOps", "Pirámide de pruebas", "Shift-left", "Arquitectura hexagonal", "DDD", "Code Review", "CI/CD"],
   },
 ];

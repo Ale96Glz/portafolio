@@ -15,10 +15,10 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    title: "Aseguramiento de calidad — SIVEI",
+    title: "Aseguramiento de calidad · SIVEI",
     role: "Jefe de equipo de aseguramiento de la calidad del software",
     org: "Universidad Autónoma Metropolitana",
-    dateRange: "ene 2026 – may 2026",
+    dateRange: "ene 2026 a may 2026",
     status: "pass",
     statusLabel: "Completado",
     sector: "Electoral",
@@ -33,10 +33,10 @@ export const experience: ExperienceItem[] = [
     tags: ["Java", "Spring Boot", "Gatling", "Karate", "Swagger"],
   },
   {
-    title: "Automatización de QA — SIVEI",
+    title: "Automatización de QA · SIVEI",
     role: "Ingeniero de automatización de aseguramiento de la calidad",
     org: "Universidad Autónoma Metropolitana",
-    dateRange: "ago 2025 – dic 2025",
+    dateRange: "ago 2025 a dic 2025",
     status: "pass",
     statusLabel: "Completado",
     sector: "Electoral",
@@ -50,7 +50,7 @@ export const experience: ExperienceItem[] = [
     tags: ["Karate", "Swagger", "Java", "Python"],
   },
   {
-    title: "Auditoría funcional y de frontend — SIVEI",
+    title: "Auditoría funcional y de frontend · SIVEI",
     role: "Auditor funcional y de frontend",
     org: "Universidad Autónoma Metropolitana",
     dateRange: "may 2025",
@@ -67,10 +67,10 @@ export const experience: ExperienceItem[] = [
     tags: ["Python", "Excel", "Pruebas de UI"],
   },
   {
-    title: "Fiscalix — automatización de procesos",
+    title: "Fiscalix · automatización de procesos",
     role: "Programador full-stack",
     org: "Universidad de las Ciencias Informáticas · CIGE",
-    dateRange: "sept 2023 – oct 2024",
+    dateRange: "sept 2023 a oct 2024",
     status: "pass",
     statusLabel: "Completado",
     sector: "Justicia",
@@ -84,10 +84,10 @@ export const experience: ExperienceItem[] = [
     tags: ["PHP", "Symfony", "AngularJS", "PostgreSQL", "Docker"],
   },
   {
-    title: "SISEN — registro de pólizas",
+    title: "SISEN · registro de pólizas",
     role: "Programador full-stack",
     org: "Universidad de las Ciencias Informáticas · CIGE",
-    dateRange: "dic 2020 – ago 2023",
+    dateRange: "dic 2020 a ago 2023",
     status: "pass",
     statusLabel: "Completado",
     sector: "Seguros",
@@ -101,10 +101,10 @@ export const experience: ExperienceItem[] = [
     tags: ["JavaScript", "Spring Boot", "PostgreSQL", "jQuery", "Hibernate"],
   },
   {
-    title: "VUA y GINA — gestión aduanera",
+    title: "VUA y GINA · gestión aduanera",
     role: "Programador full-stack",
     org: "Universidad de las Ciencias Informáticas · CEIGE",
-    dateRange: "mar 2018 – nov 2020",
+    dateRange: "mar 2018 a nov 2020",
     status: "pass",
     statusLabel: "Completado",
     sector: "Aduanas",

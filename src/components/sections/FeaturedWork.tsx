@@ -87,7 +87,10 @@ function RepoCard({ bodyId }: { bodyId: string }) {
   return (
     <Plate className="animate-fade-up p-5 sm:p-7 lg:sticky lg:top-24">
       <p className="font-mono text-[11px] tracking-[0.16em] text-signal uppercase">
-        Órbita abierta · GitHub · {body.catalog}
+        {body.id === "sdet" || body.id === "rgen"
+          ? "SDET · GitHub"
+          : "Laboratorio · GitHub"}{" "}
+        · {body.catalog}
       </p>
       <h3 className="mt-3 font-display text-[26px] font-medium tracking-tight text-ink sm:text-[30px]">
         {body.title}
@@ -124,10 +127,9 @@ export default function FeaturedWork() {
         <Reveal>
           <div>
             <p className="max-w-2xl text-[15px] leading-7 text-ink-soft">
-              Sistemas entregados en entornos regulados, ordenados del más
-              reciente al más antiguo. El anillo reúne trabajo abierto:
-              microservicios con Kafka, evaluación de sesgo en modelos y un
-              backend modular.
+              Los planetas son sistemas entregados. El anillo es trabajo
+              abierto: ecommerce, su suite de pruebas, un generador REST
+              Assured, un consultorio y evaluación de sesgo.
             </p>
 
             <div className="mt-8 grid items-start gap-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-10">
